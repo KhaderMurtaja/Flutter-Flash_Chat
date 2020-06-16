@@ -22,10 +22,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       duration: Duration(seconds: 2),
       vsync: this,
     );
-    animation = ColorTween(
-      begin: Colors.lightBlueAccent,
-      end: Colors.white,
-    ).animate(controller);
     controller.forward();
     controller.addListener(() {
       setState(() {});
@@ -81,7 +77,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               onPressed: () {
                 Navigator.pushNamed(context, RegistrationScreen.id);
               },
-              title: 'Log In',
+              title: 'Register',
             ),
           ],
         ),
