@@ -1,4 +1,4 @@
-# Flash Chat ⚡️
+# Flash Chat ⚡
 
 ## Goal
 
